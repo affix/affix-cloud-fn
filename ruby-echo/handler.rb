@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return req
+        return "Hello #{eq}"
     end
 end
