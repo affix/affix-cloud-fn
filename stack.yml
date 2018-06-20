@@ -7,3 +7,8 @@ functions:
     lang: ruby
     handler: ./ruby-echo
     image: affix/ruby-echo
+
+  openfaas-sns:
+    lang: go
+    handler: ./openfaas-sns
+    image: affixxx/openfaas-sns
